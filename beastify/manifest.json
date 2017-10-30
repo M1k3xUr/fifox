@@ -9,7 +9,7 @@
         "48": "icons/beasts-48.png"
     },
 
-    "premissions": [
+    "permissions": [
         "activeTab"
     ],
 

@@ -10,7 +10,7 @@ function beastify(request, sender, sendResponse) {
 }
 
 // removes every node under document.body
-function removeEveything() {
+function removeEverything() {
     while (document.body.firstChild) {
         document.body.firstChild.remove();
     }
