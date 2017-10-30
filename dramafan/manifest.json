@@ -1,5 +1,5 @@
 {
-    "manifest-version": 2,
+    "manifest_version": 2,
     "name": "Drama Fan",
     "version": "1.0",
     "description": "Watch your favourite drama without any distraction.",
