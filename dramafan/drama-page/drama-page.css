@@ -1,0 +1,44 @@
+.series-list{
+    height: 100%;
+    width: 20px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    display: flex;
+    transition: width .50s ease-in-out;
+    overflow: hidden;
+}
+
+.series-list>.control{
+    width: 40px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background: url('border.png') repeat-y;
+    opacity: .4;
+}
+
+.series-list>.control>.button{
+    width: 40px;
+    height: 40px;
+    /* border: 2px solid green;
+    background-color: #333;
+    border-radius: 50%; */
+    background: url('btnb.png') no-repeat;
+    cursor: pointer;
+}
+
+.series-list>.content{
+    height: 100%;
+    overflow: hidden;
+    flex: 1;
+    white-space: nowrap;
+}
+
+.series-list:active{
+    width: 240px;
+}
+.series-list:active>.content {
+    width: 200px;
+    transition: width .50s ease-in-out;
+}

@@ -2,7 +2,7 @@
 function dramaPage() {
     console.log("injecting");
     browser.tabs.create({
-        "url": "/drama-page.html"
+        "url": "/drama-page/drama-page.html"
     });
 }
 
