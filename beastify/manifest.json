@@ -4,5 +4,24 @@
     "version": "1.0",
 
     "description": "Adds a browser action icon to the toolbar",
-    "homepage_url": ""
+    "homepage_url": "https://github.com/M1k3xUr/fifox/tree/master/beastify",
+    "icons": {
+        "48": "icons/beasts-48.png"
+    },
+
+    "premissions": [
+        "activeTab"
+    ],
+
+    "browser_action": {
+        "default_icon": "icons/beasts-32.png",
+        "default_title": "Beastify",
+        "default_popup": "popup/choose_beast"
+    },
+
+    "web_accessible_resources": [
+        "beasts/frog.jpg",
+        "beasts/turtle.jpg",
+        "beasts/snake.jpg"
+    ]
 }
