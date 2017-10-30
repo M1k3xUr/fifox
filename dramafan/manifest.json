@@ -1,0 +1,18 @@
+{
+    "manifest-version": 2,
+    "name": "Drama Fan",
+    "version": "1.0",
+    "description": "Watch your favourite drama without any distraction.",
+    "homepage_url": "",
+    "icons": {
+        "48": "icons/logod-48.png"
+    },
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+
+    "browser_action": {
+        "default_icon": "icons/logoicon-32.png"
+    }
+}
